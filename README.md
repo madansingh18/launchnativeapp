@@ -14,7 +14,7 @@ window.OpenApplication("com.package.name");
 
 
 No that this should be called after *deviceready* is fired, for example:
-```javascript
+
 var openFn = function() {
    window.OpenApplication(app_package);
 };
@@ -24,5 +24,5 @@ document.addEventListener('deviceready', openFn, false);
 
 ### Licence
 
-Released under MIT
+Released under MIT 
 
