@@ -21,11 +21,8 @@ var openFn = function() {
 document.addEventListener('deviceready', openFn, false);
 ```
 
-### Instalation
-```
-```
 
 ### Licence
 
-Released under Apache License 2.0.
+Released under MIT
 
